@@ -10,7 +10,7 @@
     --body2: 14px/22px var(--fontBase);
     --button: bold 14px/22px var(--fontBase);
     --caption: 12px/19px var(--fontBase);
-    --gradient: radial-gradient(41.48% 11.48% at 2.38% 8.52%, #2f3dd8 0%, rgba(226, 53, 53, 0) 100%), linear-gradient(135deg, #16e5ec 0%, #5151E5 100%);
+    --gradient: radial-gradient(41.48% 11.48% at 2.38% 8.52%, #4e5be9 0%, rgba(12, 109, 219, 0) 100%), linear-gradient(135deg, #16e5ec 0%, #4545cc 100%);
     --purple: #310A90;
     --green: #42E2B8;
     --white: white;
@@ -69,8 +69,9 @@ body {
   }
 
   .button {
-      background: purple;
-      color:white;
+      background: var(--purple);
+      color: var(--white);
+      font: var(--button);
       padding-inline-start: 24px;
       padding-inline-end: 24px;
       padding-block-start: 13px;
