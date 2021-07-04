@@ -147,7 +147,7 @@ function initCanvas(){
             if ((enemy.y < this.y + 25 && enemy.y > this.y - 25) &&
                 (enemy.x < this.x + 45 && enemy.x > this.x - 45)) { // Checking if enemy is on the left or right of spaceship
                     this.gameStatus.over = true;
-                    this.gameStatus.message = 'You Died!'
+                    this.gameStatus.message = 'Perdiste intentalo de nuevo!'
                 }
 
             if(this.gameStatus.over === true){  
