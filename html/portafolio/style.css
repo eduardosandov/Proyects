@@ -180,6 +180,7 @@ body {
   }
   .project-image img {
       max-inline-size: 100%;
+      block-size: auto;
   }
   
   .project-description {
@@ -199,10 +200,9 @@ body {
       .project-description {
           flex: 1;
       }
-      .project:nth-child(odd) .project-image {
-          order: 2;
-          flex: 1;
-          text-align: center;
+      .project-image {
+        inline-size: 500px;
+        block-size: 504px;
       }
       
   }
