@@ -35,6 +35,10 @@ body {
     align-items: center;
     block-size:  80px;
 }
+.header .wrapper img {
+
+width: 10%;
+}
 
 .wrapper {
     max-inline-size: 1158px;
