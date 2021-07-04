@@ -215,7 +215,7 @@ width: 10%;
 
   /* footer */
   .footer {
-      background-color: cadetblue;
+      background-color: var(--green-orien);
 
   }
   .footer-content {
